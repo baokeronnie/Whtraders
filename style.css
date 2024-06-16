@@ -1,0 +1,146 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 1em;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2em;
+}
+
+#hero {
+    background-image: url('hero.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+#hero h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+#hero p {
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+#services {
+    margin-top: 2em;
+}
+
+#services h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+#services ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#services li {
+    flex-basis: 30%;
+}
+
+#services h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+#services p {
+    font-size: 1em;
+    margin-top: 0;
+}
+
+#portfolio {
+    margin-top: 2em;
+}
+
+#portfolio h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+#portfolio ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#portfolio li {
+    flex-basis: 45%;
+}
+
+#portfolio h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+#portfolio p {
+    font-size: 1em;
+    margin-top: 0;
+}
+
+#about {
+    margin-top: 2em;
+}
+
+#about h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+#about p {
+    font-size: 1em;
+    margin-top: 0;
+}
+
+#contact {
+    margin-top: 2em;
+}
+
+#contact h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+#contact p {
+    font-size: 1em;
+    margin-top: 0;
+}
